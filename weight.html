@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        body {
+            background: #333;
+        }
+    </style>
+
+    <title>Weight Converter</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light rounded-0" aria-label="Eleventh navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="https://harishsheoran.pages.dev/">Harish Sheoran</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09"
+                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://github.com/sheoranharis"
+                            target="_blank">
+                            Github
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://twitter.com/sheoranharis" target="_blank">Twitter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/m/in/harish-sheoran-986b1522b"
+                            target="_blank">LinkedIn</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container d-flex justify-content-center text-white ">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-6 text-center d-inline-flex mt-3">
+                    Unit Converter
+                </h1>
+                <form class="mb-2">
+                    <div class="form-group"></div>
+                    <input id="myInput" type="number" class="form-control form-control-lg"
+                        placeholder="Enter Weight in Kg">
+                </form>
+
+                <div id="output">
+                    <div class="card text-white bg-info mb-2" style="max-width: 24rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Pounds: </h5>
+                            <div id="poundOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-success mb-2" style="max-width: 24rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Ounce: </h5>
+                            <div id="ozOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-primary mb-2" style="max-width: 24rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Grams: </h5>
+                            <div id="gmsOutput"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="weight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
