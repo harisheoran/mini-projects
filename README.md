@@ -1,4 +1,4 @@
 ### Web Development Mini Projects
-  [View Live](https://miniprojects.pages.dev/)
+  [View  projects on web](https://miniprojects.pages.dev/)
  
  
